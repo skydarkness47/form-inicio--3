@@ -48,16 +48,28 @@
         </style>
         </head>
         <body>
+                <script type="text/javascript">
+                function mostrar(){
+                  
+                document.getElementById('oculto').style.display = 'block';
+              }
+              
 
+               function ocultar(){
+                  
+                document.getElementById('oculto').style.display = 'none';
+              }               
+               </script>
         <ul>
-          <li><a class="active" href="#home">HOME</a></li>
-            <li><a class="active" href="#home">REGISTRO</a></li>
+          <li><a class="active" href="#home" onclick="ocultar()">HOME</a></li>
+            <li><a class="active" href="#home" onclick="mostrar()" >REGISTRO</a></li>
         </ul>
         <br>
         <br>
         <br>
         <br>
-        <br>
+        <br>  
+                
 
           <div id='oculto' style='display:none;'>
 
