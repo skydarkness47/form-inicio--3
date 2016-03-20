@@ -23,14 +23,15 @@
                     <style>
             ul {
             list-style-type: none;
-            margin: 0;
+            margin: 1;
             padding: 0;
             overflow: hidden;
+            background-color: #E0ECFF;
             
         }
 
         li {
-            float: left;
+           
         }
 
         li a {
@@ -42,7 +43,7 @@
         }
 
         li a:hover {
-            background-color: #555;
+            background-color: #999;
         }
         </style>
         </head>
@@ -58,8 +59,11 @@
         <br>
         <br>
 
+          <div id='oculto' style='display:none;'>
 
           <p align="center">  <input class="buttom" name="submit" id="submit" tabindex="5" value="REGISTRO" type="submit" onclick="comparar(x1,x2)">  &nbsp; &nbsp;&nbsp;&nbsp; <input class="buttom" name="reset" id ="reset" tabindex="5" type="reset"></input>
+
+          </div>
 </p>
    </form> 
   </div>       
