@@ -20,7 +20,45 @@
       <div  class="form">
         <form id="contactform"> 
         
-        
+                    <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #555;
+        }
+        </style>
+        </head>
+        <body>
+
+        <ul>
+          <li><a class="active" href="#home">HOME</a></li>
+            <li><a class="active" href="#home">REGISTRO</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
           <p align="center">  <input class="buttom" name="submit" id="submit" tabindex="5" value="REGISTRO" type="submit" onclick="comparar(x1,x2)">  &nbsp; &nbsp;&nbsp;&nbsp; <input class="buttom" name="reset" id ="reset" tabindex="5" type="reset"></input>
 </p>
    </form> 
